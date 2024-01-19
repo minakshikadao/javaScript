@@ -50,7 +50,6 @@ for (const element of arrayStudents) {
  for (const element of arrayStudents) {
     totalMarks = totalMarks + element.marks;
  }
-
  console.log(`Total Marks of all students is: ${totalMarks}`);
  const averageMarks = totalMarks/arrayStudents.length;
  console.log(`Average marks is: ${averageMarks}`);

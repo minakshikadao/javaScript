@@ -20,7 +20,10 @@ const sum = (n1, n2,n3,n4,n5)=>{
     return (n1+n2+n3+n4+n5)
 }
 const totalAdd = sum(100,100,200,349,756);
+const totalSum = sum("I am", " learning"," ES6"," features"," in depth");
 console.log(`Total addition of value : ${totalAdd}`);
+console.log(`Total addition of value : ${totalSum }`);
+
 
 
 
