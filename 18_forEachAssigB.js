@@ -48,7 +48,7 @@ class Employee {
 
     let totalSalar = 0;
     arrayEmployee.forEach((employee) => {
-        totalSalar += employee.emp_salary;
+        totalSalar += employee.emp_salary;      
     });
     console.log(`Total Salary: ${totalSalar}`);
 const averageSalary = totalSalar / 7;
